@@ -4,9 +4,10 @@ $ git branch -a
 * main
   remotes/origin/HEAD -> origin/main
   remotes/origin/bug-fix-revert-branch
+  remotes/origin/bug-fix-typo
   remotes/origin/main
 
 $ git branch -v
   bug-fix-revert-branch ccba7a0 Revert "Fix typo in README"
   bug-fix-typo          7f25ebe Fix typo in README
-* main                  67c8360 Add bug-fix-revert file with curl PR verification
+* main                  11014c9 Add github-branches file with branch listing

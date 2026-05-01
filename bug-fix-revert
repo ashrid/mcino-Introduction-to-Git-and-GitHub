@@ -1,8 +1,7 @@
-$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7356 | grep -E "\"(title|html_url|head|base|fork|full_name)\""
+$ curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7356 | grep -E "\"title\"|\"full_name\"|\"fork\""
 
-title: Bug fix revert
-html_url: https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/7356
-state: closed
-head.repo.full_name (forked from): ashrid/mcino-Introduction-to-Git-and-GitHub
-head.repo.fork: True
-base.repo.full_name: ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+  "title": "Bug fix revert",
+      "full_name": "ashrid/mcino-Introduction-to-Git-and-GitHub",
+      "fork": true,
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "fork": false,
