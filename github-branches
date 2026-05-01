@@ -1,0 +1,12 @@
+$ git branch -a
+  bug-fix-revert-branch
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert-branch
+  remotes/origin/main
+
+$ git branch -v
+  bug-fix-revert-branch ccba7a0 Revert "Fix typo in README"
+  bug-fix-typo          7f25ebe Fix typo in README
+* main                  67c8360 Add bug-fix-revert file with curl PR verification
